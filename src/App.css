@@ -1,0 +1,161 @@
+.header-color {
+  background: #F7971E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  top:0;
+  left: 0;
+  width: 100%;
+  height:100%;
+}
+
+
+.avatar-img{
+  height:250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+background-color: black;
+opacity: .8;
+width: 75%;
+margin:auto;
+border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links{
+display:flex;
+justify-content: space-between;
+width: 50%;
+margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.projects-grid{
+  display: flex;
+  background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+
+  
+}
+
+.myStuff-grid{
+  display: flex;
+  background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+
+}
+
+.career-grid{
+  display: flex;
+  background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+}
+
+h1{
+  text-align: center;
+  color: #FFD200;    
+}
+
+h2{
+  text-align: center;
+  color: #FFD200; 
+}
+
+h3 {
+  color: #FFD200;
+  text-align: center;
+  font-size: 10px;
+}
+
+.video{
+  text-align: center;
+  margin: 100px;
+  background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+  background-size: 100%;
+}
+
+.video iframe{
+ height: 400px;
+ width: 600px;   
+}
+
+p{
+  color: #FFD200;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.friends-img{ 
+  background-image: url('https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  height: 450px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 8%;
+}
+
+ul {
+    text-align: center;
+    padding: 3%;
+}
+
+ul li{
+  font-size: 20px;
+  padding:1%;
+}
+
+ul p{
+  text-align: center;
+  padding: 3%;
+  color: #FFD200;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.careerPage {
+  background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+
+}
+
+.homePage {
+  background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+
+}
+.selfassessmentPage{
+  background: url("https://image.freepik.com/free-vector/close-up-white-marble-textured-background_53876-58927.jpg");
+
+}
+
+.button{
+  color: #FFD200;
+}

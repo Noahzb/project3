@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router'
 import { connect } from 'react-redux';
-import { Grid,  Cell, Card, CardText, CardTitle, CardActions, CardMenu, IconButton, Button, Textfield, Layout, Header,Navigation,Drawer,Content } from 'react-mdl';
+import { Grid,  Cell, Card, CardText, CardTitle, CardActions, CardMenu, IconButton, Textfield } from 'react-mdl';
 import '../../node_modules/react-mdl/extra/material'
 import '../App.css';
-import { Link } from 'react-router-dom';
 import Importboi from './Mainpage';
 
 
@@ -13,7 +12,7 @@ class MyPage extends Component {
         return (
             <div>
                     <div style={{position:"fixed", width:'100%'}}>
-                    <Importboi></Importboi>
+                  < Importboi />
                     </div>
             <div className="homePage">
         

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { withRouter } from 'react-router'
 import { connect } from 'react-redux'
 import { LOCAL_STRAGE_KEY } from '../utils/Settings'
-
+import { Grid, Cell} from 'react-mdl'
 // API
 import * as MyAPI from '../utils/MyAPI'
 
@@ -34,23 +34,41 @@ class Dashboard extends Component {
 
     return(
       <div className='dashboard' style={{textAlign: 'center'}}>
-
-        <div style={{marginTop:60}}>
           <div>
-            <span style={{cursor: 'pointer'}} onClick={() => this.logoutRequest()}>logout</span>
-          </div>
-        </div>
-<br></br><br></br>
-        <div>
-          <div>
-            
-            <a href="/Mypage">click here to continue</a>
+     
       
+          <div style={{ width: '100%', height: '100%', margin: 'auto' }}>
+                    <Grid className="landing-grid">
+                        <Cell col={12}>
+                        
+                            <img
+                                src="https://i0.wp.com/www.sunitagirl.com/wp-content/uploads/2017/05/badge.png?resize=300%2C300"
+                                alt="avatar"
+                                className="avatar-img"
+                            />
+                            
+                            <div className="banner-text">
+                            <br></br>
+                            <a href="/Mypage">Account Detected! click here to continute</a>
+                                <h1>UCF Coding Bootcamp Guide to Staying on Track</h1>
+
+                                <hr />
+
+                                <p> HTML/CSS | JavaScript | React | MongoDB | NodeJS | Express | PHP</p>
+
+                                <div className="social-links">
+                                </div>
+                              
+
+
+          
          
           </div>
-        </div>
-
+          </Cell>
+</Grid>
       </div>
+      </div>
+</div>
     )
   }
 }

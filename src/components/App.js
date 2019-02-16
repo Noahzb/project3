@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import '../App.css';
 import '../../node_modules/react-mdl/extra/material'
 import  Importboi  from './Mainpage'
-import { Layout } from 'react-mdl';
-import { Header } from 'react-mdl';
-import { Navigation } from 'react-mdl';
-import { Drawer} from 'react-mdl';
-import { Content } from 'react-mdl';
-import Main from './Main';
-import { Link } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom'
 import Dashboard from './Dashboard'
 import Home from './Home'

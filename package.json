@@ -29,6 +29,7 @@
   },
   "description": "Trilogy ed helper",
   "scripts": {
+    "start": "npm run start_react | npm run start_server",
     "start_react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

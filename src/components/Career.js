@@ -3,16 +3,15 @@ import { Card, CardText, CardTitle, CardActions, CardMenu, Button } from 'react-
 
 class Career extends Component{
     render(){
-        return (
-<div>
-               <div>
-        <ul>
-  <li> <a href="/career">Career</a></li>
-  <li><a href="/selfassesment">Self Assesment</a></li>
-  <li><a href="/mypage"></a></li>
+        return (<div>
+            <div>
+     <ul>
+<li> <a href="/mypage">Mypage</a></li>
+<li><a href="/selfassesment">Self Assesment</a></li>
+<li><a href="/mypage"></a></li>
 </ul>
 
-    </div>
+ </div>
                 <br></br>
                 <div className="career-grid">
             <Card shadow={5} style ={{minWidth:"450", margin:"auto"}}>

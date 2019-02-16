@@ -352,7 +352,15 @@ class Self extends Component {
     render(){
         return (
             <div className="selfassessmentPage">
-            <Importboi />
+      <div>
+               <div>
+        <ul>
+  <li> <a href="/mypage">Mypage</a></li>
+  <li><a href="/selfassesment">Self Assesment</a></li>
+  <li><a href="/mypage"></a></li>
+</ul>
+
+    </div>
             <div className = "category-tabs">
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
                     <Tab>Week 1-5</Tab>
@@ -370,7 +378,7 @@ class Self extends Component {
 
             </div>
             </div>
-            
+            </div>
         )
     }
     

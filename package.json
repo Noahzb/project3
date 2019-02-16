@@ -9,6 +9,7 @@
     "crypto": "^1.0.1",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
+    "mkdirp": "^0.5.1",
     "mongodb": "^2.2.31",
     "radium": "^0.19.5",
     "react": "^16.0.0",

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "node":"^8.12.0",
+    "node": "^8.12.0",
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "crypto": "^1.0.1",
@@ -34,7 +34,7 @@
   },
   "description": "Trilogy ed helper",
   "scripts": {
-    "start": "npm run start_react | npm run start_server",
+    "start": "npm run start_react & npm run start_server",
     "start_react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

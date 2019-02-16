@@ -1,4 +1,4 @@
-const port = 4002
+const port = 4002 || process.env.PORT
 
 import express from 'express'
 

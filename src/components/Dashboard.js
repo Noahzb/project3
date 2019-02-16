@@ -56,8 +56,7 @@ class Dashboard extends Component {
 
                                 <p> HTML/CSS | JavaScript | React | MongoDB | NodeJS | Express | PHP</p>
 
-                                <div className="social-links">
-                                </div>
+                              
                               
 
 

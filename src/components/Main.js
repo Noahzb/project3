@@ -5,6 +5,7 @@ import Career from './Career';
 import SelfAssessment from './SelfAssessment';
 import Logout from './Logout';
 import MyPage from './MyPage';
+import Importboi from './Mainpage';
 
 const Main = () => (
     <Switch>
@@ -13,6 +14,7 @@ const Main = () => (
         <Route path = "/selfassessment" component ={SelfAssessment}/>
         <Route path = "/Logout" component ={Logout}/>
         <Route path = "/MyPage" component ={MyPage}/>
+        <Route path = "/Mainpage" component ={Importboi}/>
     </Switch>
 )
 

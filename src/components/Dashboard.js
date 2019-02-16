@@ -44,7 +44,7 @@ class Dashboard extends Component {
         <div>
           <div>
             
-            <a href="/MyPage">click here to continue</a>
+            <a href="/Mypage">click here to continue</a>
       
          
           </div>

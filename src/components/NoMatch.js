@@ -7,7 +7,7 @@ class NoMatch extends Component {
   render() {
 
     return(
-      <div className='nomach'>
+      <div className='nomatch'>
         <span>NoMatch</span>
       </div>
     )

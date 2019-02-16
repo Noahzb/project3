@@ -7,7 +7,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 // react-router-dom
 import { BrowserRouter } from 'react-router-dom'
-import '../node_modules/react-mdl/material.js';
+import '../node_modules/react-mdl/extra/material'
 
 // redux
 import { createStore, applyMiddleware, compose } from 'redux'

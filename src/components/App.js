@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
-import '../../node_modules/react-mdl/material'
-
+import '../../node_modules/react-mdl/extra/material'
+import  Importboi  from './Mainpage'
 import { Layout } from 'react-mdl';
 import { Header } from 'react-mdl';
 import { Navigation } from 'react-mdl';
@@ -30,6 +30,8 @@ import { withRouter } from 'react-router';
 import { LOCAL_STRAGE_KEY } from '../utils/Settings'
 import { loginWithEmailRedux } from '../actions/UserActions'
 import MyPage from './MyPage';
+import Career from './Career';
+import Self from './SelfAssessment';
 
 class App extends Component {
 
@@ -103,7 +105,15 @@ class App extends Component {
           <Route exact path='/create_acount' render={() => (
             <CreateAccont />
           )} />
-
+            <Route exact path='/Mainpage' render={() => (
+            <Importboi />
+          )} />
+              <Route exact path='/career' render={() => (
+            <Career />
+          )} />
+     <Route exact path='/selfassesment' render={() => (
+            <Self />
+          )} />
           <Route component={NoMatch} />
 
         </Switch>

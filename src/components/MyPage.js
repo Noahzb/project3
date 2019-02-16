@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router'
 import { connect } from 'react-redux';
-import { Grid, Cell, Card, CardText, CardTitle, CardActions, CardMenu, IconButton, Button, Textfield } from 'react-mdl';
-import '../../node_modules/react-mdl/material'
+import { Grid,  Cell, Card, CardText, CardTitle, CardActions, CardMenu, IconButton, Button, Textfield, Layout, Header,Navigation,Drawer,Content } from 'react-mdl';
+import '../../node_modules/react-mdl/extra/material'
+import '../App.css';
+import { Link } from 'react-router-dom';
+import Importboi from './Mainpage';
+
 
 class MyPage extends Component {
     render() {
         return (
-
+            <div>
+                    <div style={{position:"fixed", width:'100%'}}>
+                    <Importboi></Importboi>
+                    </div>
             <div className="homePage">
-
+        
                 <div header><h1>Home Page</h1></div>
                 <div style={{ width: '100%', height: '100%', margin: 'auto' }}>
                     <Grid className="landing-grid">
@@ -227,7 +234,7 @@ class MyPage extends Component {
                     different teacher's perspective on the specific component you're stuck on. </h3></div>
                 </div>
                 </div>
-
+                </div>
         )
     
     }

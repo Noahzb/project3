@@ -8,6 +8,7 @@
     "crypto": "^1.0.1",
     "express": "^4.16.1",
     "express-session": "^1.15.6",
+    "mime": "^2.4.0",
     "mongodb": "^2.2.31",
     "radium": "^0.19.5",
     "react": "^16.0.0",
